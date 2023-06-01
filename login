@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login-site</title>
 </head>
+<header>
+    Login
+</header>
 <body>
-    <header>
-        Login
-    </header>
-    <div>
         <label>Nome:</label>
         <input type="text"name="Nome"required><br>
         <label>E-MAIL:</label>
