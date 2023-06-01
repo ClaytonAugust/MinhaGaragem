@@ -1,39 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>minha garagem</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="scripts/script.js"></script>
 </head>
-<header><h1><center>Minha Garagem Oficina</center></h1></header>
 <body>
-    <p>se sua roda estiver aberta a gente fecha</p>
-    <button>Menu</button>
-    <button>Sobre</button>
-    <button>contato</button>
-    <button>serviços</button>
-    <hr>
-    <div>
-        <h2>Historia</h2>
-        <img src=""> 
-        <p>historia do carro...</p>
-    </div>
-    <hr>
-    <div>
-        <h2>serviços</h2>
-        <p>meu gato</p>
-    </div>
-    <hr>
-    <div>
-        <h2>modificações de carro</h2>
-        <p>aqui modificaremos seu carro.</p>
-    </div>
-    <hr>
-    <div>
-        <h2>pintura</h2>
-        <p>tambem pintamos carro</p>
-    </div>
-
-</body>
+    <nav id="menuOculto" class="menuOculto"> 
+        <a href="" class="botaoFechar" onclick="fecharMenu()">×</a> 
+        <a href="#">Sobre nós</a> 
+        <a href="#">Endereço</a> 
+        <a href="#">Contato</a> 
+        <a href="#">Serviços</a> 
+    </nav> 
+    <section id="principal"> <span style="font-size:30px;cursor:pointer" onclick="abrirMenu()"> ☰ </span>
+        <header>
+            <h1>
+            <center>
+                Minha Garagem Oficina 
+            </center></h1>
+        </header>     
+        <hr>
+        <div>
+            <h2>Sobre carro gaiolas</h2>
+            <img src=""> 
+            <p>historia do carro gaiola...</p>
+        </div>
+        <hr>
+        <div>
+            <h2>serviços</h2>
+            <p>Nós trabalhamos com modificaçoes de carros, alem de reparo e manutenção</p>
+        </div>
+        <hr>
+        <div>
+            <h2>modificações de carro</h2>
+            <p>Nossa principal modificação e a possibilidade de instalar uma gaiola em seu bugy</p>
+        </div>
+        <hr>
+        <div>
+            <h2>pintura</h2>
+            <p>Também estilizamos e pintamos seu carro</p>
+        </div>
+    <footer>
+        <div>
+            <h1>
+                fale conosco
+            </h1>
+            <ul>
+                <li>WhatsApp</li>
+                <li>ligue (83)9xxxx-xxxx</li>
+            </ul>
+        </div>
+        <div>
+            <h1>
+                localização
+            </h1>
+            <ul>
+                <li>
+                    rua jeremaio dantas avenida 9400 e não inventa
+                </li>
+            </ul>
+        </div>
+    </footer>
+ </body>
 </html>
