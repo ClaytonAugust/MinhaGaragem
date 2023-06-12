@@ -1,5 +1,5 @@
 function abrirMenu(){
-    document.getElementById("menuOculto").style.width="250px";
+    document.getElementById("menuOculto").style.width="230px";
     document.getElementById("principal").style.marginLeft="250px";
 }
 function fecharMenu(){
