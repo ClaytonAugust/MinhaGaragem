@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css"/>
+    <script src="/scripts/scriptMenu.js"></script>
     <title>Gaiolas</title>
 </head>
 <div class="main">
@@ -15,33 +16,41 @@
                 </h1>
             </center>
         </header>
-                    <hr>
-        <main class="textbox">
-            <aside class="text">
-                <h2 class="h2gaiola">
-                    Gaiolas
-                </h2>
+        <nav id="menuOculto" class="menuOculto">
+            <a href=""class="botaoFechar"onclick="fecharMenu()">&#x2715;</a>
+            <a href="/index.html">inicio</a>
+            <a href="/páginas/serviços.html">serviços</a>
+            <a href="/páginas/gaiolas.html">gaiolas</a>
+            <a href="/páginas/login.html">entrar</a>
+            <a href="/páginas/formulario.html">cadastre-se</a>
+        </nav>
+        <section id="principal"><span style="font-size:30px;cursor:pointer"onclick="abrirMenu()">☰</span>
+            <main class="textbox">
+                <aside class="text">
+                    <h2 class="h2gaiola">
+                        Gaiolas
+                    </h2>
+                    
+                    <p class="pgaoila">
+                        A MinhaGaragem é especializada no atendimento de um tipo específico de veículo, conhecido carinhosamente como "Gaiolas". Esses veículos possuem uma estrutura de metal distintiva que se assemelha a uma gaiola, daí o nome.
+                    </p>
 
-                <p class="pgaoila">
-                    A MinhaGaragem é especializada no atendimento de um tipo específico de veículo, conhecido carinhosamente como "Gaiolas". Esses veículos possuem uma estrutura de metal distintiva que se assemelha a uma gaiola, daí o nome.
-                </p>
+                    <p class="pgaoila">
+                        As gaiolas são reconhecidas como brinquedos radicais devido à sua função projetada para dunas, trilhas e atividades off-road em geral. Sua suspensão excepcional permite uma habilidade impressionante de subir em terrenos íngremes e escorregadios, enquanto seu motor potente é capaz de enfrentar situações em que nenhum outro veículo seria capaz de lidar.
+                    </p>
 
-                <p class="pgaoila">
-                    As gaiolas são reconhecidas como brinquedos radicais devido à sua função projetada para dunas, trilhas e atividades off-road em geral. Sua suspensão excepcional permite uma habilidade impressionante de subir em terrenos íngremes e escorregadios, enquanto seu motor potente é capaz de enfrentar situações em que nenhum outro veículo seria capaz de lidar.
-                </p>
+                    <p class="pgaoila">
+                        Quando se trata dos serviços oferecidos pela MinhaGaragem para essas gaiolas, é importante destacar que muitas delas acabam sofrendo danos devido ao uso inadequado ou à instalação incorreta de peças. Considerando que os veículos gaiolas são fabricados por várias empresas diferentes, a MinhaGaragem se destaca ao fornecer serviços de excelência exclusivos para esse tipo de veículo. Nossa equipe é capaz de aprimorar esses veículos, solucionar defeitos de fábrica e prevenir problemas futuros, oferecendo um serviço meticuloso e dedicado a um "brinquedo" tão complexo.
+                    </p>
+                </aside>
 
-                <p class="pgaoila">
-                    Quando se trata dos serviços oferecidos pela MinhaGaragem para essas gaiolas, é importante destacar que muitas delas acabam sofrendo danos devido ao uso inadequado ou à instalação incorreta de peças. Considerando que os veículos gaiolas são fabricados por várias empresas diferentes, a MinhaGaragem se destaca ao fornecer serviços de excelência exclusivos para esse tipo de veículo. Nossa equipe é capaz de aprimorar esses veículos, solucionar defeitos de fábrica e prevenir problemas futuros, oferecendo um serviço meticuloso e dedicado a um "brinquedo" tão complexo.
-                </p>
-            </aside>
-
-            <article class="articlegaiola">
-                <img src="/imagem/IMG_6197.jpg" alt="gaiola" class="img">
-                <img src="/imagem/galoiacarro.jpg" alt="gaiola2" class="img2">
-            </article>
-        </main>
+                <article class="articlegaiola">
+                    <img src="/imagem/IMG_6197.jpg" alt="gaiola" class="img">
+                    <img src="/imagem/galoiacarro.jpg" alt="gaiola2" class="img2">
+                </article>
+            </main>
+        </section>
     </body>
-
     <footer class="footergaiola">
         <ul>
             <li>entre em contato</li>
