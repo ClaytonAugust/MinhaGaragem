@@ -444,6 +444,10 @@ body{
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #f88f3152;
 }
+.btn-login a{
+    text-decoration: none;
+    color: #000;
+}
 
 @media (max-width: 950px){
     .card-login{
@@ -546,11 +550,11 @@ body{
 .footergaiola{
     text-transform: uppercase;
     font-weight: 800;
-
 }
 
 .footergaiola > ul{
     margin:0;
     padding: 10px;
     background: #14111b;
+    text-align: center;
 }
