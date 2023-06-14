@@ -1,3 +1,4 @@
+
 .menuOculto{
     height: 100%;
     width: 0;
@@ -201,13 +202,14 @@ p{
     align-items: center;
     background: #f08228;
 }
-
 .container{
     width: 80%;
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, .212);
+    margin-left: 50px;
 }
+
 
 .form-image{
     width: 50%;
@@ -228,7 +230,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: white;
+    background-color: #2b134b;
     padding: 3rem;
 }
 
@@ -288,7 +290,7 @@ p{
 .gender-title h6 {
     font-size: 0.75rem;
     font-weight: 600;
-    color: black;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -316,7 +318,7 @@ p{
 .gender-input label{
     font-size: 0.81rem;
     font-weight: 600;
-    color: #000000c0;
+    color: #ffffffc0;
 }
 
 .continue-button button {
