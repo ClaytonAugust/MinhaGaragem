@@ -27,6 +27,7 @@
     display: block;
     transition: 0.3s;
 }
+
 .menuOculto a:hover{
     color: #fff;
 }
